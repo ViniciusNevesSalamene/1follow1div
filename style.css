@@ -33,10 +33,13 @@ header > button{
     font-weight: normal;
     margin: 5px;
 }
-#counter{
+#counter {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    min-width: 100%;
 }
 body{
     margin: 0;
