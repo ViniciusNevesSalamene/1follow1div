@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 function recarregar(){
     fetch('html.txt')
     .then(response => response.text())
