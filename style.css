@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+    background: rgb(255,233,0);
+    background: linear-gradient(90deg, rgba(255,233,0,1) 0%, rgba(121,9,82,1) 46%, rgba(255,0,226,1) 100%);
+    padding: 15px 3px;
+}
+header > h1 {
+    margin: 5px;
+    color: rgb(218, 218, 218);
+    font-family: 'Yatra One', system-ui;
+    filter: drop-shadow(5px 3px 4px #302709);
+    text-decoration: none;
+}
+header > button{
+    background-color: rgb(173, 0, 153);
+    color: white;
+    font-weight: bold;
+    font-family: 'Yatra One', system-ui;
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+.desc > h2 {
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: normal;
+}
+.user{
+    border: 2px solid red;
+    padding: 5px;
+    font-weight: normal;
+    margin: 5px;
+}
+#counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    margin: 0;
+}
